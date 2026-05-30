@@ -1,0 +1,16 @@
+{
+  "role": "dev-engineer",
+  "iteration": 1,
+  "status": "DONE",
+  "summary": "Created the public starter repository and copied the reusable workflow scripts.",
+  "files_changed": [
+    "tools/agent-comm/workflow_runner.py",
+    "tools/agent-comm/bootstrap_check.py",
+    "README.md"
+  ],
+  "known_issues": [],
+  "evidence": [
+    "bootstrap_check.py reads lessons, memory, skills, and recent summaries",
+    "workflow_runner.py creates task envelopes and writes normalized summaries"
+  ]
+}

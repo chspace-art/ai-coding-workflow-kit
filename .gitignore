@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+dist/
+build/
+node_modules/
+coverage/
+share/archive/*
+!share/archive/.gitkeep
+share/over/*
+!share/over/.gitkeep

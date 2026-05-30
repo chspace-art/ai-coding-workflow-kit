@@ -1,0 +1,15 @@
+{
+  "role": "qa-engineer",
+  "iteration": 1,
+  "status": "DONE",
+  "summary": "Validated the starter structure and example archive schema.",
+  "decision": "PASS",
+  "total_score": 91.0,
+  "test_commands_executed": [
+    "python tools/agent-comm/bootstrap_check.py --keywords \"workflow\"",
+    "python tools/agent-comm/workflow_runner.py audit --warn-only"
+  ],
+  "evidence": [
+    "The runner commands are documented and the example summary matches schema version 2."
+  ]
+}

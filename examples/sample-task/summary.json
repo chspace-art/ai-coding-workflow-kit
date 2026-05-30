@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "task_id": "task_20260530_example_workflow_task",
+  "title": "Example workflow task",
+  "mode": "single_cluster",
+  "project": null,
+  "final_status": "COMPLETED",
+  "normalized_status": "COMPLETED",
+  "summary": "Example task showing the public archive schema produced by the workflow runner.",
+  "total_records": 3,
+  "loop_count": 0,
+  "completed_at": "2026-05-30T01:00:00Z",
+  "requirements_confirmed": true,
+  "completion_gates": {
+    "passed": true,
+    "errors": [],
+    "override_note": ""
+  },
+  "ui_verification": {
+    "required": false,
+    "opened": false,
+    "url": "",
+    "user_accepted": false
+  },
+  "iterations": [
+    {
+      "file": "examples/sample-task/iter_01_dev.json",
+      "role": "dev-engineer",
+      "iteration": 1,
+      "status": "DONE",
+      "decision": null,
+      "total_score": null,
+      "summary": "Created the initial task envelope and repository starter files."
+    },
+    {
+      "file": "examples/sample-task/iter_01_mentor.json",
+      "role": "mentor-engineer",
+      "iteration": 1,
+      "status": "DONE",
+      "decision": "PASS",
+      "total_score": 86.0,
+      "summary": "Reviewed the workflow structure and confirmed the archive schema stays coherent."
+    },
+    {
+      "file": "examples/sample-task/iter_01_qa.json",
+      "role": "qa-engineer",
+      "iteration": 1,
+      "status": "DONE",
+      "decision": "PASS",
+      "total_score": 91.0,
+      "summary": "Verified the task state machine and example summary shape."
+    }
+  ]
+}
