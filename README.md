@@ -45,7 +45,7 @@ This repository is an opinionated starter for adding just enough process to make
 - `.agents/skills/`
   - Generic repo-local skill templates for workflow, memory, UI verification, and git governance.
 - `examples/sample-task/`
-  - A sanitized example of the archive schema produced by the runner.
+  - A sanitized example of the archive schema produced by the runner, plus a walkthrough README.
 
 ## Core loop
 
@@ -140,6 +140,16 @@ Contributions are welcome, especially in these areas:
 - tighter archive and memory conventions
 
 Start with [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Example walkthrough
+
+If you want to see the archive format before adopting the kit, start with [examples/sample-task/README.md](./examples/sample-task/README.md).
+
+It walks through:
+
+- what a finished task archive looks like
+- how `dev`, `mentor`, and `qa` records relate to `summary.json`
+- which commands create and complete a task
 
 ## Publishing checklist
 
